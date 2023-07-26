@@ -15,15 +15,25 @@
         <h1 class="sign-up-heading">Stay updated!</h1>
         <p>Join 60,000+ product managers receiving monthly updates on:</p>
         <p>
-          <img src="@/assets/icon-list.svg" class="list-icon" />Product
-          discovery and building what matters
+          <img
+            src="@/assets/icon-list.svg"
+            class="list-icon"
+            alt="red-circle-arrow"
+          />Product discovery and building what matters
         </p>
         <p>
-          <img src="@/assets/icon-list.svg" class="list-icon" />Measuring to
-          ensure updates were a success
+          <img
+            src="@/assets/icon-list.svg"
+            class="list-icon"
+            alt="red-circle-arrow"
+          />Measuring to ensure updates were a success
         </p>
         <p>
-          <img src="@/assets/icon-list.svg" class="list-icon" />And much more
+          <img
+            src="@/assets/icon-list.svg"
+            class="list-icon"
+            alt="red-circle-arrow"
+          />And much more
         </p>
 
         <form name="subscribeform" @submit.prevent="submitEmail">

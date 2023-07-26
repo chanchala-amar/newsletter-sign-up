@@ -2,7 +2,11 @@
   <Transition name="modal">
     <div v-if="show" class="modal-mask" @click="$emit('close')">
       <div class="modal-container">
-        <img src="@/assets/icon-list.svg" class="list-icon" />
+        <img
+          src="@/assets/icon-list.svg"
+          class="list-icon"
+          alt="red-circle-arrow"
+        />
 
         <div class="sign-up-heading">Thanks for subscribing!</div>
         <p>
