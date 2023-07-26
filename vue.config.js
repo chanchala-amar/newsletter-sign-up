@@ -3,6 +3,6 @@ module.exports = defineConfig({
   transpileDependencies: true,
   publicPath:
     process.env.NODE_ENV === "production"
-      ? "https://github.com/chanchala-amar/newsletter-sign-up"
+      ? "https://chanchala-amar.github.io/newsletter-sign-up/"
       : "/",
 });
